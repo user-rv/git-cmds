@@ -25,8 +25,15 @@ by cloning , a new  respository (dir) will be created at local machine
  
 move to that dir and make necessary modifications by creating new files if needed
 we can check the status of git flow by <git status>
-<git add . > all the files will be added
-<git commit -m "messages"> all added files will be commited to that particular respository
-<git push> all files which we have modified and created will be reflected at remote ws.
+
+#all the files will be added
+`git add .`
+
+#all added files will be commited to that particular respository
+git commit -m "messages" 
+
+#all files which we have modified and created will be reflected at remote ws.
+git push 
+
 this is how git cmd and  github will be used in realtime 
        

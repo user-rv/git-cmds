@@ -1,0 +1,32 @@
+lets know in detail regarding git
+
+in real time , many developers work on diff things like front end development(interfac), backend development(functionality) etc.,To cascaade everyone's processand 
+classify we use git.
+
+there are two work spaces 
+local ws
+remote ws
+
+we(developers)work at local ws, will make necessary modifications and  will get access to remote ws by cloning.
+
+all modified or new files will be stored in a respository in remote ws
+
+indetail:  > create a respository(git-cmds) at github and get ssh url from code 
+
+inlocal machine : get ssh key -< ssh-keygen>
+
+key will be generated. move  to ssh dir  <cd .ssh> and view content of ssh dir <ls -ltr>
+you will get know where pub key is stored <cat *absolutepath>
+key will be displayed, copy the key and paste it at remote ws
+
+get installed git <sudo yum install git> 
+as we know the ssh url , clone the respository < git clone *sshurl>
+by cloning , a new  respository (dir) will be created at local machine
+ 
+move to that dir and make necessary modifications by creating new files if needed
+we can check the status of git flow by <git status>
+<git add . > all the files will be added
+<git commit -m "messages"> all added files will be commited to that particular respository
+<git push> all files which we have modified and created will be reflected at remote ws.
+this is how git cmd and  github will be used in realtime 
+       
